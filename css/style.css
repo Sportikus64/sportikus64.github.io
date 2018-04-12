@@ -1,0 +1,174 @@
+body {
+   margin: 0;
+   font-family: Roboto; 
+   color: #fff;
+   font-size: 18px;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+   background-color: #3a7dfd;
+   padding-top: 59px;
+   
+}
+
+.description {
+	margin-top: 102px;
+	 
+}
+
+.header-title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36.81px;
+	margin-top: 21px;
+	
+	
+}
+
+.header-subtitle {
+	font-weight: 400px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.header-button {
+    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 17px 55px;
+}
+
+.button-description {
+   display: block;
+   font-size: 12px;
+   text-align: center;
+   margin-top: 9px;
+}
+
+.header-button-block {
+	max-width: 210px;
+	max-height: 50px;
+}
+
+
+
+/* PORTFOLIO */
+
+
+
+.portfolio {
+  background-color: #ddd;
+  padding: 44px 71px;
+}
+
+.portfolio-block {
+  background-color: #fff;
+  padding: 44px 71px;
+  margin-bottom: 29px;
+}
+
+.portfolio-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  color: #072b6f;
+}
+
+.portfolio-subtitle {
+  color: #7bb9ff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.portfolio-title, .portfolio-subtitle {
+	text-align: center;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 16px;
+}
+
+.portfolio-description {
+  color: #8f8f8f;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.portfolio-block a {
+color: #072b6f;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+}
+
+.portfolio-col-1 {
+	padding-left: 50px;
+}
+
+.portfolio-col-2 {
+	padding-right: 50px;
+}
+
+footer {
+	background-color: #3a7dfd;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+.footer-author {
+padding-bottom: 7px;
+color: #fff;
+}
+
+.footer-text {
+margin-top: 0;
+}
+
+.social-block {
+	text-align: center;
+}
+
+.social-block a {
+	display: inline-block;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+.footer-cta {
+ margin-bottom: 13px;
+}
+
+.footer-button {
+display: inline-block;
+border-radius: 50px;
+border: 1px solid #ffffff;
+background-color: transparent;
+color: #fff;
+font-size: 18px; 
+padding: 12px 40px;
+}
+
+.footer-feedback {
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+	.description {
+	 margin-top: 60px;
+  }
+}
